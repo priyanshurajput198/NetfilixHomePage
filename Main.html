@@ -2,52 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
-    <title>Netflix</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css">
+  <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+  <link rel="icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico" type="image/x-icon">
 </head>
 
 <body>
 
-    <header class="showcase">
-        <div class="showcase-top">
-            <img src="Img/Logo.png" alt="Netflix" />
-            <span id="lang-sign">
-                <select name="lang" id="lang-selector">
-                    <option value="eng">English</option>
-                    <option value="hin">हिन्दी</option>
-                </select>
-                <a href="#" class="btn btn-rounded">Sign In</a>
-            <span>
-        </div>
-        <div class="showcase-content">
-            <h1>Unlimited movies, TV shows and more.</h1>
-            <h2>Watch anywhere. Cancel anytime</h2>
-            <br>
-            <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-            <br>
-            <span>
-            <input type="email" id="mail" name="mail" placeholder="Email Address" required  ><a href="#" class="btn btn-xl">Get Started
-            <i class="fas fa-chevron-right btn-icon"></i></a></span>
-        </div>
-    </header>
-    <hr>
-    <div class="container">
-        <!-- Tab Content 1 -->
-        <div id="tab-1-content" class="tab-content-item show">
-          <div class="tab-1-content-inner">
-            <div>
-              <p class="text-lg">
-                If you decide Netflix isn't for you - no problem. No commitment.
-                Cancel online anytime.
-              </p>
-              <a href="#" class="btn btn-lg">Watch Free for 30 days</a>
-            </div>
-            <img src="img/tab-content-1.png" alt="" />
-          </div>
-        </div>
+  <header class="Top">
+    <div class="Top-bar">
+      <img src="Img/Logo.png" alt="Netflix" />
+      <span id="lang-sign">
+        <span class="langselect">
+          <select name="lang" id="lang-selector">
+          <option value="eng">English</option>
+          <option value="hin">हिन्दी</option>
+        </select>
+      </span>
+        <a href="#" class="btn btn-rounded btn-signin">Sign In</a>
+        <span>
+    </div>
+    <div class="Top-content">
+      <h1>Unlimited movies, TV shows and more.</h1>
+      <br>
+      <h2 class="Top-content-1">Watch anywhere. Cancel anytime</h2>
+      <br>
+      <h3 class="Top-content-1">Ready to watch? Enter your email to create or restart your membership.</h3>
+      <br>
+      <span class="mail-started">
+
+        <input type="email" id="Top-content-mail" name="mail" placeholder="Email Address" required><a href="#"
+          class="btn btn-xl btn-get-started">Get Started &#x203A;</a>
+      </span>
+    </div>
+  </header>
+  <hr>
+
+<!-- ################################################# Top Tab Completed #####################################################################################-->
 </body>
 
 </html>
