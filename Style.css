@@ -40,14 +40,14 @@
     width: 100%;
   }
   
-  .showcase {
+  .Top {
     width: 100%;
-    height: 99vh;
+    height: 740px;
     position: relative;
     background: url("Img/Background.png") no-repeat center center/cover;
   }
   
-  .showcase::after {
+  .Top::after {
     content: "";
     position: absolute;
     top: 0;
@@ -56,17 +56,16 @@
     height: 100%;
     z-index: 1;
     background: rgba(0, 0, 0, 0.5);
-    /* box-shadow: inset 120px 100px 250px #000, inset -120px -100px 250px #000; */
     box-shadow: inset 30px 0px 2500px #000, inset -30px -0px 2500px #000;
   }
   
-  .showcase-top {
+  .Top-bar {
     position: relative;
     height: 90px;
     z-index: 2;
   }
   
-  .showcase-top img {
+  .Top-bar img {
     width: 170px;
     position: absolute;
         top: 30%;
@@ -77,25 +76,29 @@
 #lang-selector
 {
  float:right;
- 
+ color: #fff;
+ background-color: #141414;
  margin-right: 10%;
- margin-top:4vh;
- width:100px;
+ margin-top:30px;
+ width:90px;
+ height:30px;
  
 }
 #lang-selector option{
-    font-size: 20px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #999;
 }
   
   
-  .showcase-top a {
+  .Top-bar a {
     position: absolute;
     top: 50%;
     right: 0;
     transform: translate(-50%, -50%);
   }
   
-  .showcase-content {
+  .Top-content {
     position: relative;
     margin: auto;
     display: flex;
@@ -109,27 +112,23 @@
     margin-right:25% ;
   }
   
-  .showcase-content h1 {
+  .Top-content h1 {
     font-weight: 600;
     font-size: 4rem;
     line-height: 1.1;
-    margin: 0 0 2rem 0;
+    
   }
   
-  .showcase-content p {
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: 400;
-    font-size: 1.9rem;
-    line-height: 1.1;
-    margin: 0 0 2rem;
+  .Top-content-1 {
+ font-weight: normal;
   }
-  #mail{
-    /* font-size: 1.4rem; */
+  #Top-content-mail{
+    font-size: 1.4rem;
     font-size: 16px;
-    width: 500px;
+    width: 480px;
     height: 65px;
-    padding: 1.2rem 2.1rem;
+    padding: 0.5rem 0.5rem;
+    padding-top: -4px;
     
   }
 
@@ -143,15 +142,15 @@
     display: inline-block;
     background: var(--primary-color);
     color: #fff;
-    padding: 0.4rem 1.3rem;
+    padding: 0.4rem 1.2rem;
     font-size: 1rem;
     text-align: center;
     border: none;
     cursor: pointer;
-    margin-right: 0.5rem;
     outline: none;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
-    border-radius: 2px;
+    
+    
+    opacity: 1.0;
   }
   
   .btn:hover {
@@ -161,12 +160,21 @@
   .btn-rounded {
     border-radius: 5px;
   }
-  
-  .btn-xl {
-    font-size: 1.4rem;
-    padding: 1.2rem 2.1rem;
-    text-transform: uppercase;
-    
+
+
+  .btn-get-started{
+    font-size: 30px;
+    padding: 11px 32px;
+    text-transform: capitalize;
+    text-align: left;
+    box-shadow: 0 8px 0 #e50914;
+  }
+  .btn-get-started:hover  {
+    filter: brightness(110%);
+    opacity: 1.0;
+  }
+  .btn-get-started:active  {
+    opacity: 0.8;
   }
   
   .btn-lg {
@@ -186,3 +194,5 @@
     background-color: rgb(73, 73, 73);
     border-color: rgb(73, 73, 73);
   }
+ 
+  /*########################################################### Top Tab Completed#############################################################################3*/
