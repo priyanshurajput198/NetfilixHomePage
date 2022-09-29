@@ -40,12 +40,14 @@ function show1() {
 
   function show4() {
     var x4 = document.getElementById("Faq-answer4");
-
     if (x4.style.display === "none") {
       x4.style.display = "inline";
     } else {
       x4.style.display = "none";
     } 
+    
+    var a=document.getElementsId("ques4-icon");
+    a.style.transform="rotate(20deg)";
   }
 
 
